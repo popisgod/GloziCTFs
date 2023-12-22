@@ -1,4 +1,7 @@
 # Headache
+I've had a headache since last evening. Is there a magic spell that can cure it immediately?
+
+[included file](https://github.com/popisgod/CTFs/blob/main/BackdoorCTF/Headache/public/original/chal.png)
 
 <details>
   <summary><h2>&nbspsolution</h2></summary>
