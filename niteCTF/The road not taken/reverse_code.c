@@ -18,8 +18,6 @@ int main(){
    ptrFunction = wrongDirection;
    read(0, buff, 0x20Aull);
 
-   char
-
    ptrFunction();
    return 0;
 }
