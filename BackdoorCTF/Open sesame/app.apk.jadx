@@ -1,0 +1,55 @@
+{
+  "projectVersion": 1,
+  "files": [
+    "app.apk"
+  ],
+  "treeExpansions": [
+    [
+      "Source code",
+      "app.apk"
+    ]
+  ],
+  "codeData": {
+    "comments": [],
+    "renames": []
+  },
+  "openTabs": [
+    {
+      "type": "class",
+      "tabPath": "androidx.core.app.NavUtils",
+      "subPath": "java",
+      "caret": 1936,
+      "view": {
+        "x": 6,
+        "y": 318
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "com.example.open_sesame.MainActivity",
+      "subPath": "java",
+      "caret": 2154,
+      "view": {
+        "x": 0,
+        "y": 608
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "androidx.appcompat.app.AppCompatDelegate",
+      "subPath": "java",
+      "caret": 1350,
+      "view": {
+        "x": 0,
+        "y": 77
+      }
+    }
+  ],
+  "activeTab": 1,
+  "cacheDir": "app.apk.cache",
+  "enableLiveReload": false,
+  "searchHistory": [
+    "MainAct",
+    "mainA"
+  ]
+}
