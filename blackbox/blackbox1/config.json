@@ -1,0 +1,20 @@
+{
+    "users": [
+        {
+            "username": "admin1",
+            "token": "ZGFk"
+        },
+        {
+            "username": "daddy ",
+            "token": "Y29tZWhlcmU="
+        },
+        {
+            "username": "-- ",
+            "token": "LS0g"
+        },
+        {
+            "username": null,
+            "token": null
+        }
+    ]
+}
