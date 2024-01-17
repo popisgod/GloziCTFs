@@ -23,6 +23,7 @@ int main() {
     MD5_Init(&flag);
     int fd = open("flag", O_RDONLY);
     int bytes = read(fd, &flag_str, 0x100);
+    printf("%d", bytes);
     close(fd);
     MD5_Update(&flag, flag_str, bytes);
     MD5_Final(flag_hash, &flag);
@@ -34,6 +35,7 @@ int main() {
     char guess_hash[MD5_DIGEST_LENGTH];
     char* guess = malloc(bytes+1);
     bytes = read(0, guess, bytes);
+    printf("%s", guess); 
     MD5_CTX guess_ctx;
     MD5_Init(&guess_ctx);
     MD5_Update(&guess_ctx, guess, bytes);
