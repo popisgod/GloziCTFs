@@ -1,0 +1,4 @@
+string1 length = 25 
+string2 length = 50 
+
+zero both strings
