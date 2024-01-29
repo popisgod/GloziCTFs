@@ -1,7 +1,7 @@
 from pwn import * 
 
-io = remote('pwnable.kr', '9007') 
-io.recv()
+e
+
 
 for _ in range(100):
     game_data = io.recvline().decode().strip().split()

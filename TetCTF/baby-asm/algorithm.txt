@@ -1,0 +1,87 @@
+func 3 - returns array value at i index. 
+func 5 - checks the values of the new array and if all values equal returns 1. 
+result = [38793, 584, 738, 38594, 63809, 647, 833, 63602, 47526, 494, 663, 47333, 67041, 641, 791, 66734, 35553, 561, 673, 35306]
+
+func 4 - 
+
+global 0 
+
+local.get $var0
+i32.const 0
+i32.const 1
+
+-----
+local.get $var0
+i32.const 0
+call $3
+-----
+
+global.get $global0
+i32.add
+call $4
+
+								var0  var1 var2        var3 
+  (func $4 (;4;) (export "4") (array) (0)   (1)   (value + global)
+
+
+    local.get $var1
+    i32.const 0
+    i32.eq
+    if
+      local.get $var0
+      local.get $var2
+
+      _____________________________
+      ----------------
+      local.get $var0
+      local.get $var2
+      call $3
+      ----------------
+
+      local.get $var3
+      i32.add
+      i32.const 32
+      i32.xor
+
+      _____________________________
+
+      call $array_fill
+
+        (func $array_fill (;2;) (export "array_fill") (param $var0 (ref null $type1)) (param $var1 i32) (param $var2 i32)
+        													array 							index 1 		  char1 + char2 + var3 
+    local.get $var0
+    local.get $var1
+    local.get $var2
+    i32.const 19
+    i32.add
+    i32.const -64
+    i32.sub
+    struct.new $type0
+    i32.const 1
+    array.fill $type1
+
+
+
+
+global 3 = 177 xor 36  
+char3 = 
+
+
+array 
+3
+0
+global 3 xor char3 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
