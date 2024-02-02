@@ -512,7 +512,7 @@ void banner() {
     puts("Have fun!");
     puts("btw, we don't have en-passant support :)");
 }
-
+    a 
 int main(int argc, char* argv[]) {
     init_buffering();
     init_board();
