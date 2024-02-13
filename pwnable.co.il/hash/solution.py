@@ -18,7 +18,6 @@ def find_md5_with_prefix(prefix):
         
         
         
-        
 context.log_level = 'DEBUG'
 if args['LOCAL']:
     io = process('./hash')
@@ -27,7 +26,9 @@ else:
     
 prefix = '537500'
 payload, _ = find_md5_with_prefix(prefix)
-print(payload, 'and', _)
+
+print(_)
+print(payload)
 
 io.send(payload)
 io.interactive()

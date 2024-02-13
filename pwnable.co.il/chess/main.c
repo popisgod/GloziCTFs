@@ -256,7 +256,7 @@ chess_move* parse_move_rook(char* move, uint8_t turn) {
             } else {
                 out->file_src = move[1] - 'a';
             }
-        } else { // strlen(move) == 3
+        } else { // strlen(move) == 3   7 - (move[2] - '1') = -1 | move[2] - '1' = 8 + '1' 
             out->file_dest = move[1] - 'a';
             out->rank_dest = move[2] - '1';
             int found = 0;
@@ -321,7 +321,7 @@ chess_move* parse_move_rook(char* move, uint8_t turn) {
 
 chess_move* parse_move_queen(char* move, uint8_t turn) {
     // Q was parsed out
-    // [x][file][rank][check/checkmate]
+  c
     chess_move* out = malloc(sizeof(chess_move));
     if (turn == WHITE) {
         out->piece = 'Q';
@@ -512,7 +512,7 @@ void banner() {
     puts("Have fun!");
     puts("btw, we don't have en-passant support :)");
 }
-    a 
+
 int main(int argc, char* argv[]) {
     init_buffering();
     init_board();

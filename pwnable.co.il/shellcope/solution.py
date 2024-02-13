@@ -17,7 +17,8 @@ else:
 
 
 payload = (
-    asm('SUB rip,le 0x30') 
+    asm('nop'),
+    asm('nop'),
 )
 
 

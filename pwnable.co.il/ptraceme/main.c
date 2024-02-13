@@ -38,7 +38,7 @@ int main() {
                 case 1:
                     printf("Request: ");
                     int req = 0;
-                    scanf("%d", &req);
+                    scanf("%d", &req);z` 
                     getchar();
                     printf("Address: ");
                     unsigned long long addr = 0;
