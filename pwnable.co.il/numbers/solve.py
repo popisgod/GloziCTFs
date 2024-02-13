@@ -54,8 +54,8 @@ def read_number():
     
     io.recvuntil(b'> ')   
     io.sendline(b'5')
-    io.recvuntil(b'Number at index:')
-    number = int(io.recv(11).decode())
+    io.recvuntil(b'Number at index: ')
+    number = int(io.recv(10).decode())
     
     return number 
 
