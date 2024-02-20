@@ -1,4 +1,4 @@
-rtimport pwn
+import pwn
 
 elf = pwn.ELF('./theater')
 pwn.context.binary = elf
