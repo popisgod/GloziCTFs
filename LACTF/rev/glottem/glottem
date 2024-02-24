@@ -1,0 +1,10 @@
+#!/bin/sh
+1<<4201337
+1//1,"""
+exit=process.exit;argv=process.argv.slice(1)/*
+4201337
+read -p "flag? " flag
+node $0 "$flag" && python3 $0 "$flag" && echo correct || echo incorrect
+1<<4201337
+*///""";
+4201337

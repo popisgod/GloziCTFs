@@ -1,0 +1,16 @@
+ocamlopt -c mem.c
+ocamlopt -o main -I +unix unix.cmxa mem.o main.ml
+rm -rf *.cmx *.cmi *.cmo *.o
+Writing memory dump dumps/561f8f2ee000-561f8f2fb000... done
+Writing memory dump dumps/561f8fe4d000-561f8fee9000... done
+Writing memory dump dumps/7ff63a52d000-7ff63a6b0000... done
+Writing memory dump dumps/7ff63a6b5000-7ff63a8b5000... done
+Writing memory dump dumps/7ff64a6b6000-7ff64a6b9000... done
+Writing memory dump dumps/7ff64a88d000-7ff64a89a000... done
+Writing memory dump dumps/7ff64a97d000-7ff64a97f000... done
+Writing memory dump dumps/7fffcefdc000-7fffceffd000... done
+Writing memory dump dumps/7fffcf1cb000-7fffcf1cf000... failed with code 1
+Writing memory dump dumps/7fffcf1cf000-7fffcf1d1000... done
+Map has 30 elements
+addrof(m) = 0x7ff63a8b0208
+word size = 64; int size = 63; big endian = false

