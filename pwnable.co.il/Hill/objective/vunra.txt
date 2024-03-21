@@ -1,0 +1,12 @@
+
+head 
+
+bss 
+0x04040d0
+
+0x04040cc
+----------
+init_list 
+
+head -> pointer_heap -> objective (nullfied)
+

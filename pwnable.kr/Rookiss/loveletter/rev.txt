@@ -1,0 +1,4 @@
+blocks ;&#*|\"<>~?()^?{}[],
+
+;echo\x00;
+;echoecho

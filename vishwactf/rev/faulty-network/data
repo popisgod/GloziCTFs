@@ -1,0 +1,13 @@
+import torch 
+
+# Load the contents of the .pth file
+state_dict = torch.load("chal.pth")
+
+# Print the keys of the state dictionary
+print(state_dict.keys())
+
+# Print the values of the state dictionary
+print(state_dict.values())
+
+# Print the entire state dictionary
+print(state_dict)
